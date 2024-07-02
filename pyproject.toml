@@ -7,8 +7,10 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-requests = {extras = ["socks"], version = "*"}
+requests = {extras = ["socks"], version = "^2.32.3"}
 beautifulsoup4 = "^4.12.3"
+pymongo = "^4.8.0"
+dnspython = "^2.6.1"
 
 
 [build-system]
